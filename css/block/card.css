@@ -1,0 +1,124 @@
+.wrap-card {
+  margin-top: 10em;
+}
+
+
+.card{
+  /*background-color: yellow;*/
+    display: inline-block;
+   box-sizing:border-box;
+   padding: 1em;
+    width: 25%;
+    position: relative;
+    border-radius:6%;
+}
+
+
+
+
+.wrap-card-options{
+  position: absolute;
+  top: -1em;
+  left: 0;
+  opacity: 0;
+   transition: opacity 0.6s linear;
+}
+
+.card:hover .wrap-card-options{
+   opacity: 1;
+}
+
+
+.card-options{
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #FFF;
+
+   box-sizing: border-box;
+   display: inline-block;
+   width: 1.7em;
+   height:1.7em;
+   text-indent: -9999px;
+   overflow: hidden;
+   border-radius: 50%;
+   border:  2px solid rgba(0, 0, 0, 0.5);
+   cursor: pointer; //maozinha
+
+
+}
+
+.card-content[contenteditable='true']{
+ outline: 0.1em solid rgba(255, 255, 255, 0.5);
+
+}
+
+
+[data-color="first"]{
+  background-color:#900C3F;
+}
+
+[data-color="second"]{
+  background-color: #566573  ;
+}
+
+[data-color="third"]{
+  background-color: #CD6155   ;
+}
+
+[data-color="fourth"]{
+  background-color: #73C6B6   ;
+}
+
+
+.card_delete {
+
+  background-image: url(../../images/delete.png);
+  background-size: 80%;
+  margin-right: 0.8em;
+
+}
+
+.card_edit{
+
+background-image: url(../../images/edit.png);
+  background-size: 90%;
+
+}
+
+.card-options.isActive{
+  border-width: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.card-options_colorFirst{
+  background-color:#900C3F;
+}
+
+.card-colors_colorSecond{
+  background-color: #566573  ;
+}
+
+.card-colors_colorThird{
+  background-color: #CD6155   ;
+}
+
+.card-colors_colorFourth{
+  background-color: #73C6B6   ;
+}*/

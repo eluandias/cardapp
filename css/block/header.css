@@ -1,0 +1,29 @@
+.header{
+  background-color: #A7DBD8;
+height: 2.5em;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+
+}
+.header-title{
+  color: #A9A8A9;
+ display: inline;
+ vertical-align: middle;
+}
+
+.header-menu{
+  float: right;
+}
+.header-button:first-child{
+  margin-right: 1.5em;
+}
+
+ .header-button{
+  background-color:#A9A8A9;
+   color: #FFF;
+  font-size: 1em;
+  box-sizing: content-box;
+  height: 1.2em;
+  padding: 0.6em;
+  display: inline-block;
+}

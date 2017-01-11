@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+border: none;
+padding: 0;
+outline: none;
+}
+body, textarea{
+  font-family: "verdana",sans-serif;
+}
+a{
+  color:inherit; /*setando a cor do element pai*/
+  text-decoration: none;  /*tirando sublinhado*/
+}
+
+ol ,ul,li{
+  list-style: none;
+}
